@@ -1,0 +1,319 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(img/fondo.jpg);
+      background-color: darkgray;
+    }
+      
+  
+  /*  ---------HEADER-------- */
+
+  .titulo {
+    
+    color: rgb(76, 67, 212);
+    font-size: 40px;
+    padding: 26px;
+    text-decoration-style: solid;
+    font-weight: bold;
+    font-family: 'Fredoka One', cursive;
+    
+   
+  
+
+     }
+
+
+
+     .subtitulo{
+       background-color: blueviolet;
+       color: rgb(2, 0, 5);
+       background-image: url(img/cablered.jpg);
+       background-position: center;
+       padding: 60px;
+      text-decoration: rosybrown;
+       text-align: center;
+       text-size-adjust: 35px;
+       border: 3px solid black;
+    
+       
+      
+
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+
+     }
+
+
+     .logos {
+      padding: 50px;
+      list-style: none;
+      text-decoration-color: seagreen;
+      font-family: 'Fredoka One', cursive;
+      background-image: url(img/cablered.jpg);
+     font-size: xx-large;
+      
+      }
+
+       /* Estilos menu */
+
+       .menuSuperior{
+        padding: 18px;
+        list-style: none;
+        display: inline-block;
+        padding: 50px;
+      list-style: none;
+    }
+    .menuSuperior a{
+        text-decoration: none;
+        color: rgb(168, 72, 72);
+    }
+
+  .header-banner {
+    background-image: url("img/robots2.jpg");
+    background-color: rgb(136, 46, 46);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+    font-family: 'Fredoka One', cursive;
+    }
+
+ 
+.header__navbar--principal {
+  padding: 50px;
+  list-style: none;
+  text-decoration-color: seagreen;
+  font-family: 'Fredoka One', cursive;
+  background-image: url(img/cablered.jpg);
+ 
+
+  }
+
+  .header__navbar--principal li {
+    background-color: rgb(26, 211, 218);
+    display: inline-block;
+    padding: 60px;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-image: linear-gradient( to right,blue, rgb(0, 204, 255),white);
+    background-position: right;
+    background-repeat: repeat;
+    transition: all 3s;
+    animation: pulse 1.5s infinite;
+
+    
+    
+    
+
+   
+}
+.header__navbar--principal li:hover{
+
+  
+  background: linear-gradient( to right,blue, rgb(0, 204, 255),white);
+  transition: all .3s;
+  padding: 50px;
+  background-position:  50  3px;
+  
+ 
+  
+
+}
+
+
+
+ 
+
+ 
+  .log{
+    padding: 18px;
+    color: rgb(21, 112, 56);
+background-color: rgb(190, 41, 183);
+font-family: 'Fredoka One', cursive;
+}
+
+  /*---contenido----*/
+  .texto{
+      padding: 18px;
+     background-color: rgb(228, 215, 233);
+     color: rgb(212, 38, 212);
+     font-size: 7mm;
+     font-family: 'Fredoka One', cursive;
+     background-image: url(img/cablered.jpg);
+}
+
+input {
+  width: 200px;
+  transition: all 1s;
+
+}
+
+input:focus {
+  background-color: rgb(0, 17, 255);
+}
+
+
+
+
+     .formulario {
+        background-color: rgb(72, 174, 221);
+        background-image:url(img/imagen.jpg);
+        color: rgb(6, 33, 63);
+        font-size: 25px;
+        padding: 26px;
+        font-family: 'Fredoka One', cursive;
+
+
+
+        
+         }
+         /*  ---------colocar a un lado-------- */
+
+             .aside{
+              background-color: rgb(171, 50, 204);
+              background-image: url(img/circuitos.jpg);
+              width: 25%;
+              padding: 2rem;
+              font-size: 1.2rem;
+              float: right;
+              border: 1rem;
+              line-height :24px
+          
+          }           
+/*  ---------boton enviar-------- */
+          .btnEnviar{
+            margin-bottom: 2rem;
+            width: 50%;
+            background-color: #ac06d6;
+            border: 2px solid;
+            border-color:#295875;
+            border-radius: 0.3rem;
+            cursor: pointer;
+            padding: 0.4rem;
+            font-weight: 700;
+            font-size: 1rem;
+            color: white;
+            margin-left: 25%;
+            
+        }
+
+ /* volver entre paginas */
+        .volver {
+          background-color: rgba(238, 96, 139, 0.801);
+          color: cornsilk;
+          font-size: 20px;
+          padding: 26px;
+          background-image: url( img/robots1.jpg);
+           }
+
+
+         /*seccion de contactos */   
+
+         .flex-container  {
+          
+           flex-direction: column;
+          display:flex;
+          border: 2px solid rgb(56, 30, 11);
+          background-color: rgb(85, 87, 87);
+          justify-content: center;
+          background-image:url(img/robots1.jpg);
+          background-size: cover;
+          background-repeat: repeat;
+          background-position: center;
+
+         }
+
+         .flex-container div{
+
+          background-color: cornflowerblue;
+          margin: 30px;
+          width: 200px;
+          font: 10px;
+          border: 3px solid black;
+
+
+
+
+
+         }
+
+           /*grids */   
+
+           .grid-container{
+             display: grid;
+             background-color: blueviolet;
+             grid-template-columns: auto auto auto;
+              justify-content:space-around;
+              background-image:url(img/robots1.jpg);
+              background-position: center;
+             
+              
+
+
+           }
+
+           .grid-container div {
+
+            
+             color: rgb(17, 43, 128);
+             text-align: center;
+             border: 3px solid black;
+             background-image: url(img/menus.jpg);
+
+
+
+           }
+
+
+ /*animaciones */   
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    animation-name: girar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-image: url(img/calavera.png);
+    background-position: center;
+    background-repeat: none;
+
+    border-radius: 100px;
+  
+}
+
+@keyframes girar {
+    0%{transform: rotate(0deg); background-color: red;}
+    50% {background-color: yellow;}
+    100%{transform: rotate(360deg); background-color: blue;}
+}
+
+
+
+.maps
+
+{
+    width: 200px;
+    position: absolute;
+    bottom: 3;
+    animation-name: saltar;
+    animation-duration: 2s;
+    animation-fill-mode: initial;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes saltar {
+    0% {transform: translate(0);}
+    100% {transform: translate(500px); width: 400px;}
+}
+
